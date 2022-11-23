@@ -5,33 +5,14 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>TestFirstServlet</servlet-name>
-  	<display-name>TestFirstServlet</display-name>
+  	<servlet-name>TestCookie</servlet-name>
+  	<display-name>TestCookie</display-name>
   	<description></description>
-  	<servlet-class>in.com.raystec.TestFirstServlet</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>TestMultipleURL</servlet-name>
-  	<display-name>TestMultipleURL</display-name>
-  	<description></description>
-  	<servlet-class>in.com.raystec.TestMultipleURL</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>TestServletMethods</servlet-name>
-  	<display-name>TestServletMethods</display-name>
-  	<description></description>
-  	<servlet-class>in.com.raystec.TestServletMethods</servlet-class>
+  	<servlet-class>in.com.raystec.TestCookie</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>TestFirstServlet</servlet-name>
-  	<url-pattern>/TestFirstServlet</url-pattern>
+  	<servlet-name>TestCookie</servlet-name>
+  	<url-pattern>/TestCookie</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>TestMultipleURL</servlet-name>
-  	<url-pattern>/TestMultipleURL</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>TestServletMethods</servlet-name>
-  	<url-pattern>/TestServletMethods</url-pattern>
-  </servlet-mapping>
+ 
 </web-app>
